@@ -564,9 +564,6 @@ a:hover {
   padding-left: 1rem;
   color: #222;
 }
-/* :deep div {
-  height: auto;
-} */
 
 :deep(.highlited) {
   background-color: #191919;
