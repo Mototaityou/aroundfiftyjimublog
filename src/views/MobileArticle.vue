@@ -422,9 +422,6 @@ async function userinfo_call() {
         UserInfoName.value = UserJson.name
         UserInfoPhoto.value = UserJson.picture
         HaveCode.value = false
-        // console.log(UserInfoName.value);
-        // console.log(UserInfoPhoto.value);
-        // console.log(UserInfoJson.value);
       }
     } catch (e) {
       console.log(e)
