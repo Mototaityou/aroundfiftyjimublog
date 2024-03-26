@@ -300,7 +300,7 @@ const messageResult = ref()
 const errorMessage = ref('')
 
 const ChangeColor = async () => {
-  const OperationType = import.meta.env['VITE_APP_OPERATIONTYPE']
+  const OperationType = import.meta.env.VITE_APP_OPERATIONTYPE
   isActive.value = false
   count.value++
   const likeNub = count.value + Number(like.value)
@@ -365,7 +365,7 @@ const form = ref()
 const youmustsignin = ref()
 
 const initialState = {
-  OperationType: import.meta.env['VITE_APP_OPERATIONTYPE'],
+  OperationType: import.meta.env.VITE_APP_OPERATIONTYPE,
   message_comment: ''
 }
 
