@@ -7,8 +7,7 @@ import vuetify from 'vite-plugin-vuetify'
 import checker from 'vite-plugin-checker'
 import * as path from 'path'
 import { nodePolyfills } from 'vite-plugin-node-polyfills'
-
-const isProduction = process.env.NODE_ENV === 'production'
+import legacy from '@vitejs/plugin-legacy'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -17,6 +16,7 @@ export default defineConfig({
   },
   plugins: [
     vue(),
+    legacy(),
     vueJsx(),
     vuetify(),
     checker({
