@@ -50,8 +50,7 @@ export default defineConfig({
       '~': path.resolve(__dirname, 'src')
     }
   },
-  // CloudFront のディストリビューションドメイン名を設定
-  base: isProduction ? 'https://dkfvna4j4i0pk.cloudfront.net' : ''
+  base: './'
 })
 vuetify({
   styles: {
