@@ -8,6 +8,8 @@ import checker from 'vite-plugin-checker'
 import * as path from 'path'
 import { nodePolyfills } from 'vite-plugin-node-polyfills'
 
+const isProduction = process.env.NODE_ENV === 'production'
+
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
@@ -48,7 +50,8 @@ export default defineConfig({
       '~': path.resolve(__dirname, 'src')
     }
   },
-  base: './'
+  // CloudFront のディストリビューションドメイン名を設定
+  base: isProduction ? 'https://dkfvna4j4i0pk.cloudfront.net' : ''
 })
 vuetify({
   styles: {
