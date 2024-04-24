@@ -280,7 +280,8 @@
 																	※Amplifyはもう少し様子を見たほうが良い、使わない方が勉強になるし。と先生からおすすめされたのでAmplifyは使いませんでした。
 																</p>
 																<p class="text-body-2">
-																	※VSCodeを使ってDockerコンテナ内でLambdaを構築しています。(Dockerコンテナを勉強するため)
+																	※VS
+																	Codeを使ってDockerコンテナ内でLambdaを構築しています。(Dockerコンテナを勉強するため)
 																</p>
 															</div>
 														</v-col>

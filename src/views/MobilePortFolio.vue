@@ -279,14 +279,14 @@
 																<h5 class="mb-1">CI/CD</h5>
 																<p class="mb-7">
 																	CI/CDはVS
-																	CodeからGitHubへアップデートされたらCodepipelineが起動してCodeBuildにてビルドし、S3にアップロードされCloud
-																	FrontのキャッシュをLambda(Python)にて削除できるように構築しました。
+																	CodeからGitHubへアップデートされたらCodePipelineが起動してCodeBuildにてビルドし、S3にアップロードされCloudFrontのキャッシュをLambda(Python)にて削除できるように構築しました。
 																</p>
 																<p class="text-body-2">
 																	※Amplifyはもう少し様子を見たほうが良い、使わない方が勉強になるし。と先生からおすすめされたのでAmplifyは使いませんでした。
 																</p>
 																<p class="text-body-2">
-																	※VSCodeを使ってDockerコンテナ内でLambdaを構築しています。(Dockerコンテナを勉強するため)
+																	※VS
+																	Codeを使ってDockerコンテナ内でLambdaを構築しています。(Dockerコンテナを勉強するため)
 																</p>
 															</div>
 														</v-col>
@@ -443,7 +443,7 @@
 																<td>主なサービス</td>
 																<td>7ヶ月</td>
 																<td>
-																	Route 53, Cloud Front, S3, CodePipeline,
+																	Route 53, CloudFront, S3, CodePipeline,
 																	CodeBuild, API Gateway, Lambda, DynamoDB, SES,
 																	Cognito
 																</td>
