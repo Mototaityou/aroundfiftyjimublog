@@ -150,7 +150,7 @@
 													<p>
 														チャット機能とクラウドサービス、NoSQLデータベースを勉強するため、Firebase
 														Codelab を参考にVue.js, Vuetify,
-														Typescriptでチャットを作成し、Firebaseにデプロイしました。
+														TypeScriptでチャットを作成し、Firebaseにデプロイしました。
 													</p>
 												</div>
 											</v-col>
@@ -192,7 +192,7 @@
 												<div>
 													<p>
 														AWSを勉強するためにこのブログをVue.js, Vuetify,
-														Typescriptにて作成しました。(イラストはイラストレーターで描きました)
+														TypeScriptにて作成しました。(イラストはイラストレーターで描きました)
 													</p>
 												</div>
 											</v-col>
@@ -237,7 +237,7 @@
 														</v-col>
 														<v-col>
 															<div>
-																<p>Typescript</p>
+																<p>TypeScript</p>
 																<p>HTML</p>
 																<p>SCSS, CSS</p>
 																<p>JavaScript</p>
@@ -250,7 +250,7 @@
 																<h5 class="mb-1">表示機能(home 記事)</h5>
 																<p class="mb-7">
 																	API Gateway(HTTP), Lambda(Python),
-																	DynamoDbを使ってブログの記事を表示できるようにしました。DynamoDBのテーブル設計はPartition
+																	DynamoDBを使ってブログの記事を表示できるようにしました。DynamoDBのテーブル設計はPartition
 																	KeyとSort
 																	Keyをクエリすれば表示できるように構築しました。
 																</p>
@@ -400,7 +400,7 @@
 															</tr>
 															<tr>
 																<td>言語</td>
-																<td>Typescript</td>
+																<td>TypeScript</td>
 																<td>6ヶ月</td>
 																<td>簡単なプログラミングが可能</td>
 															</tr>
