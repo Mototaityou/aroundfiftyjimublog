@@ -5,6 +5,8 @@ This template should help get you started developing with Vue 3 in Vite.
 ## About
 <img src="https://img.shields.io/badge/-Node.js-000000.svg?logo=node.js&style=for-the-badge"> <img src="https://img.shields.io/badge/-Vue.js-364659.svg?logo=vue.js&style=for-the-badge"> <img src="https://img.shields.io/badge/-Typescript-000000.svg?logo=typescript&style=for-the-badge">  <img src="https://img.shields.io/badge/-Sass-123262.svg?logo=sass&style=for-the-badge"> <img src="https://img.shields.io/badge/-Amazon%20aws-232F3E.svg?logo=amazon-aws&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20route%2053-232F3E.svg?logo=amazonroute53&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20lambda-232F3E.svg?logo=awslambda&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20s3-232F3E.svg?logo=amazons3&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20SES-232F3E.svg?logo=amazonsimpleemailservice&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20cognito-232F3E.svg?logo=amazoncognito&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20dynamodb-232F3E.svg?logo=amazondynamodb&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20api%20gateway-232F3E.svg?logo=amazonapigateway&style=for-the-badge">
 
+**aroundfiftyjimublog** was developed by Mototaityou, a novice programmer, using Vue.js, Vuetify, and TypeScript to gain experience with Amazon Web Services and deployed on AWS.
+
 * [aroundfiftyjimublog](https://aroundfiftyjimu.com/) - This HTML link will direct you to the page titled **aroundfiftyjimublog**.
 
 ## AWS Architecture Diagram
