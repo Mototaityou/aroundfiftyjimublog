@@ -12,9 +12,15 @@ This template should help get you started developing with Vue 3 in Vite.
 ## AWS Architecture Diagram
 ![Blog drawio](https://github.com/Mototaityou/reversi/assets/103736269/646cf070-ac07-4ffb-99d0-04b2350d644a)
 
-## Display function (home)
+## Display function (homepage)
 *aroundfiftyjimublog* application leveraged the following technologies to display blog posts: API Gateway (HTTP), Lambda (Python), and DynamoDB. The DynamoDB table design was optimized for efficient querying of the Partition Key and Sort Key.
 
+<img width="1259" alt="homepage" src="https://github.com/Mototaityou/aroundfiftyjimublog/assets/103736269/91be3132-39d0-4243-9ffa-fbe601ed01c8">
+
+##  Contact Us form　
+a*roundfiftyjimublog* application leveraged the following technologies to build the Contact Us form: API Gateway (REST), Lambda (Python), and SES. The SES is capable of sending an email to the administrator (Mototaityou) from the Contact form.
+
+## Comments Section
 
 ## Recommended IDE Setup
 
