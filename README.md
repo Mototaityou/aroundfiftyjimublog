@@ -18,7 +18,7 @@ This template should help get you started developing with Vue 3 in Vite.
 <img width="1259" alt="homepage" src="https://github.com/Mototaityou/aroundfiftyjimublog/assets/103736269/91be3132-39d0-4243-9ffa-fbe601ed01c8">
 
 ##  Contact Us form　
-a*roundfiftyjimublog* application leveraged the following technologies to build the Contact Us form: API Gateway (REST), Lambda (Python), and SES. The SES is capable of sending an email to the administrator (Mototaityou) from the Contact form.
+a*roundfiftyjimublog* application leveraged the following technologies to develop the Contact Us form: API Gateway (REST), Lambda (Python), and SES. The SES is capable of sending an email to the administrator (Mototaityou) from the Contact form.
 
 ## Comments Section
 
