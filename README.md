@@ -27,7 +27,7 @@ This application enables users to sign in via OIDC Idp (Google) from the Cognito
 The locally managed Vue.js application was developed as a system that can connect to DynamoDB using API Gateway (REST) and Lambda (Python) to enable the CRUD of blog posts once it is logged in via Cognito.
 
 ## CI/CD
-
+CI/CD was designed to streamline the transfer of updates from VS Code to GitHub. Upon completion of the update, CodePipeline is launched and integrated with CodeBuild, uploaded to S3, and the CloudFront cache can be deleted with Lambda (Python).
 
 ## Recommended IDE Setup
 
