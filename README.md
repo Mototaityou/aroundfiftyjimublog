@@ -21,7 +21,7 @@ This application leveraged the following technologies to display blog posts: API
 This application leveraged the following technologies to develop the Contact Us form: API Gateway (REST), Lambda (Python), and SES. The SES is capable of sending an email to the administrator (Mototaityou) from the Contact form.
 
 ## Comments Section
-This application enables users to sign in via OIDC Idp (Google) from the Cognito sign-in page. Once authorized, users can receive authentication (JWT) via API Gateway (REST) and write comments to DynamoDB via Lambda (Python).
+This application enables users to sign in via OIDC Idp (Google) from the Cognito sign-in page. Once authorized, users can receive authentication (JWT) from API Gateway (REST) and write comments to DynamoDB using Lambda (Python).
 
 ## Managing CRUD operations on the DynamoDB
 The locally managed Vue.js application was developed as a system that can connect to DynamoDB using API Gateway (REST) and Lambda (Python) to enable the CRUD of blog posts once it is logged in via Cognito.
