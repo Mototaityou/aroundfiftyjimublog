@@ -24,6 +24,9 @@ This application leveraged the following technologies to develop the Contact Us 
 This application enables users to sign in via OIDC Idp (Google) from the Cognito sign-in page. Once authorized, users can receive authentication (JWT) via API Gateway (REST) and write comments to DynamoDB via Lambda (Python).
 
 ## Managing CRUD operations on the DynamoDB
+The locally managed Vue.js application was developed as a system that can connect to DynamoDB using API Gateway (REST) and Lambda (Python) to enable the CRUD of blog posts once it is logged in via Cognito.
+
+## CI/CD
 
 
 ## Recommended IDE Setup
