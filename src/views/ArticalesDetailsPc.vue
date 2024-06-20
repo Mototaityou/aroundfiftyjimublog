@@ -15,7 +15,7 @@
 								:src="item.image"
 								:alt="item.slug"
 							></v-img>
-							<h2 v-for="item in data" :key="item.title" class="pt-8">
+							<h2 v-for="item in data" :key="item.title" class="pt-8 text-left">
 								{{ item.title }}
 							</h2>
 							<v-divider
@@ -223,7 +223,8 @@ dayjs.extend(utc);
 
 sanitizeHtml.defaults.allowedTags = sanitizeHtml.defaults.allowedTags.concat([
 	'pre',
-	'code'
+	'code',
+	'img'
 ]);
 sanitizeHtml.defaults.allowedAttributes['*'] = ['class'];
 
@@ -658,8 +659,11 @@ a:hover {
 :deep(.div) {
 	color: #569cd6;
 }
-:deep .l {
+:deep(.l) {
 	color: #bc89bd;
+}
+:deep(.g) {
+	color: #74985d;
 }
 .gsi-material-button {
 	-moz-user-select: none;
