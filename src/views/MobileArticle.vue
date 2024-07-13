@@ -659,6 +659,12 @@ a:hover {
 :deep(.div) {
 	color: #569cd6;
 }
+:deep(.l) {
+	color: #bc89bd;
+}
+:deep(.g) {
+	color: #74985d;
+}
 .gsi-material-button {
 	-moz-user-select: none;
 	user-select: none;
