@@ -84,6 +84,11 @@
 	</v-col>
 </template>
 <style scoped>
+a {
+	color: #00e;
+	text-decoration: none;
+}
+
 h3 {
 	margin-bottom: 1rem;
 }
