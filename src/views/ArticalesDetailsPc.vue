@@ -320,6 +320,12 @@ const updateMeta = onMounted(() => {
 					'content',
 					'https://aroundfiftyjimu.com' + '/' + itemGenre + '/' + itemId
 				);
+			document
+				.querySelector("link[name='isAlternate']")
+				?.setAttribute(
+					'href',
+					'https://aroundfiftyjimu.com' + '/' + itemGenre + '/' + itemId
+				);
 		})
 		.catch((error: AxiosError) => {
 			console.log('error' + error.message);
