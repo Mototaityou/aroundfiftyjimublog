@@ -14,7 +14,8 @@ const genre = [
 	'javascript',
 	'vue',
 	'Firebase',
-	'AWS'
+	'AWS',
+	'WinActor'
 ];
 
 watch(select, (genre) => {

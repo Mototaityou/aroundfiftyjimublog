@@ -443,6 +443,16 @@
 																	Cognito
 																</td>
 															</tr>
+															<tr>
+																<td>RPA</td>
+																<td>WinActor</td>
+																<td>1ヶ月</td>
+																<td>
+																	シナリオ新規開発<br />
+																	残高集計の自動化：約150ノード<br />
+																	残業時間の集計・報告業務の自動化：約200ノード
+																</td>
+															</tr>
 														</tbody>
 													</v-table>
 												</div>
