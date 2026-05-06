@@ -32,7 +32,13 @@
 									Python, HTML, SCSS, CSS, SQL, JavaScript,
 									TypeScriptの基礎を勉強してFirebaseにチャットページをAWSへはこのブログをデプロイできるようになる
 								</li>
-								<li>N Code Laboを卒業？して転職活動を始める ←いまここ</li>
+								<li>N Code Laboを卒業？して転職活動を始める</li>
+								<li>
+									半年間転職活動するも書類選考も通らないので派遣会社のWinActor講座に参加
+								</li>
+								<li>
+									派遣会社からRPA（業務自動化を実現するツール）を扱う事務職を紹介していただき就業中←いまここ
+								</li>
 							</ul>
 						</v-sheet>
 					</v-col>
