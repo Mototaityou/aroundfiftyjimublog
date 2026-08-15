@@ -71,55 +71,32 @@ modern cloud architecture and backend integration using AWS services.
 - Serverless Architecture Design
 - CI/CD automation
 
-## Homepage Article Display
-This application leveraged the following technologies to display blog posts: API Gateway (HTTP), Lambda (Python), and DynamoDB. The DynamoDB table design was optimized for efficient querying of the Partition Key and Sort Key.
+## Feature Details
 
-<img width="1259" alt="homepage" src="https://github.com/Mototaityou/aroundfiftyjimublog/assets/103736269/91be3132-39d0-4243-9ffa-fbe601ed01c8">
+### Article Display
+Blog posts are retrieved through API Gateway and AWS Lambda and displayed on the homepage.
 
-##  Contact Us form　
-This application leveraged the following technologies to develop the Contact Us form: API Gateway (REST), Lambda (Python), and SES. The SES is capable of sending an email to the administrator (Mototaityou) from the Contact form.
+Article data is stored in DynamoDB and retrieved using optimized Partition Key and Sort Key queries to improve performance.
 
-## Comments Section
-This application enables users to sign in via OIDC Idp (Google) from the Cognito sign-in page. Once authorized, users can receive authentication (JWT) from API Gateway (REST) and write comments to DynamoDB using Lambda (Python).
+### Contact Form
+The contact form allows users to send inquiries directly to the administrator.
 
-## Managing CRUD operations on the DynamoDB
-The locally managed Vue.js application was developed as a system that can connect to DynamoDB using API Gateway (REST) and Lambda (Python) to enable the CRUD of blog posts once it is logged in via Cognito.
+The feature was implemented using API Gateway (REST), AWS Lambda, and Amazon SES. Submitted messages are processed by Lambda and delivered via email using Amazon SES.
 
-## CI/CD
-The CI/CD setup automates the continuous delivery of the pipeline from VS Code to CodePipeline for fast and reliable updates: when pushed from VS Code, CodePipeline is launched, built with CodeBuild and uploaded to S3, and the CloudFront cache can be deleted by Lambda (Python).
+### Comment Function
+Users can sign in with Google through Amazon Cognito and post comments on articles.
 
-## Recommended IDE Setup
+JWT-based authentication is used to authorize API requests through API Gateway. Comments are processed by AWS Lambda and stored in DynamoDB.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Article Management (CRUD)
+A dedicated administrative application was developed with Vue.js to manage blog posts.
 
-## Type Support for `.vue` Imports in TS
+Authenticated administrators can create, read, update, and delete articles through API Gateway and AWS Lambda. All article data is stored in DynamoDB.
+Amazon Cognito was selected to avoid implementing a custom authentication system and to gain experience with managed authentication services.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### CI/CD Pipeline
+A CI/CD pipeline was implemented using GitHub, CodePipeline, and CodeBuild.
 
-## Customize configuration
+When code is pushed to GitHub, the application is automatically built and deployed to Amazon S3. CloudFront cache invalidation is then executed to ensure users receive the latest version of the application.
+The pipeline was implemented to reduce manual deployment work and improve deployment reliability.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
