@@ -14,11 +14,8 @@ and a CI/CD deployment pipeline.
 It was developed to gain hands-on experience with
 modern cloud architecture and backend integration using AWS services.
 
-## About
-<img src="https://img.shields.io/badge/-Node.js-000000.svg?logo=node.js&style=for-the-badge"> <img src="https://img.shields.io/badge/-Vue.js-364659.svg?logo=vue.js&style=for-the-badge"> <img src="https://img.shields.io/badge/-Typescript-000000.svg?logo=typescript&style=for-the-badge">  <img src="https://img.shields.io/badge/-Sass-123262.svg?logo=sass&style=for-the-badge"> <img src="https://img.shields.io/badge/-Amazon%20aws-232F3E.svg?logo=amazon-aws&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20route%2053-232F3E.svg?logo=amazonroute53&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20lambda-232F3E.svg?logo=awslambda&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20s3-232F3E.svg?logo=amazons3&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20SES-232F3E.svg?logo=amazonsimpleemailservice&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20cognito-232F3E.svg?logo=amazoncognito&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20dynamodb-232F3E.svg?logo=amazondynamodb&style=for-the-badge"> <img src="https://img.shields.io/badge/-aws%20api%20gateway-232F3E.svg?logo=amazonapigateway&style=for-the-badge">
-
 ## Live Demo
-* [aroundfiftyjimublog](https://aroundfiftyjimu.com/)
+🔗 https://aroundfiftyjimu.com
 
 ## Technology Stack
 
@@ -43,6 +40,9 @@ modern cloud architecture and backend integration using AWS services.
 - CloudFront
 - S3
 
+### Messaging
+- Amazon SES
+
 ### CI/CD
 - CodePipeline
 - CodeBuild
@@ -51,26 +51,27 @@ modern cloud architecture and backend integration using AWS services.
 ![Blog drawio](https://github.com/Mototaityou/reversi/assets/103736269/646cf070-ac07-4ffb-99d0-04b2350d644a)
 
 ## Features
-- Article CRUD
+- Article Management (CRUD)
 - Google Authentication
-- Comment Function
-- Contact Form
-- CI/CD
+- Authenticated User Comments
+- Contact Form (Amazon SES)
+- Automated CI/CD Deployment
 
 ## Challenges
-- Learning and implementing JWT-based authentication with Amazon Cognito
-- Configuring API Gateway authorizers to validate authenticated requests
-- Designing DynamoDB data models for efficient article and comment retrieval
+- Implementing JWT-based authentication with Amazon Cognito
+- Configuring API Gateway authorizers for authenticated requests
+- Designing DynamoDB data models for article and comment retrieval
 - Building a serverless architecture using Lambda, API Gateway, and DynamoDB
-- Implementing CI/CD automation and CloudFront cache invalidation for deployment
+- Implementing CI/CD automation and CloudFront cache invalidation
 
 ## What I Learned
-- JWT Authentication
-- API Gateway and Lambda integration
-- DynamoDB data modeling
+- JWT-based Authentication
+- API Gateway and Lambda Integration
+- DynamoDB Data Modeling
+- Serverless Architecture Design
 - CI/CD automation
 
-## Display function (homepage)
+## Homepage Article Display
 This application leveraged the following technologies to display blog posts: API Gateway (HTTP), Lambda (Python), and DynamoDB. The DynamoDB table design was optimized for efficient querying of the Partition Key and Sort Key.
 
 <img width="1259" alt="homepage" src="https://github.com/Mototaityou/aroundfiftyjimublog/assets/103736269/91be3132-39d0-4243-9ffa-fbe601ed01c8">
