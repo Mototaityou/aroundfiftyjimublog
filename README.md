@@ -5,11 +5,7 @@
 This is a serverless blog application built with Vue.js,
 TypeScript, and AWS.
 
-The application includes article management,
-Google authentication,
-comment posting,
-contact forms,
-and a CI/CD deployment pipeline.
+The project implements authentication, API integration, article management, contact forms, and CI/CD automation using managed AWS services.
 
 It was developed to gain hands-on experience with
 modern cloud architecture and backend integration using AWS services.
@@ -52,8 +48,8 @@ modern cloud architecture and backend integration using AWS services.
 
 ## Features
 - Article Management (CRUD)
-- Google Authentication
-- Authenticated User Comments
+- Google Authentication via Amazon Cognito
+- Authenticated User Comment Posting
 - Contact Form (Amazon SES)
 - Automated CI/CD Deployment
 
@@ -69,7 +65,7 @@ modern cloud architecture and backend integration using AWS services.
 - API Gateway and Lambda Integration
 - DynamoDB Data Modeling
 - Serverless Architecture Design
-- CI/CD automation
+- CI/CD Automation
 
 ## Feature Details
 
